@@ -16,5 +16,7 @@ ufw allow 25565
 useradd -m -s /bin/bash minecraft
 
 # Copy roots authorized_keys file to the minecraft account
-cp /root/.ssh/authorized_keys /home/minecraft/authorized_keys
-chown minecraft:minecraft /home/minecraft/authorized_keys
+mkdir /home/minecraft/.ssh
+chmod go-rwx /home/minecraft/.ssh
+cp /root/.ssh/authorized_keys /home/minecraft/.ssh/authorized_keys
+chown minecraft:minecraft /home/minecraft/.ssh/authorized_keys

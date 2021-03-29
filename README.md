@@ -21,7 +21,7 @@ Note `<ip-address>` and get hold of the `<private-key-file>`.
 
 ## 3. Fetch this repository from that machine and enter it.
 
-    git clone git@github.com:magnus-lycka/minecraft-digital-ocean.git
+    git clone https://github.com/magnus-lycka/minecraft-digital-ocean.git
     cd minecraft-digital-ocean
 
 Next time you want use this repo, just run `git pull -r` to get the latest version.
