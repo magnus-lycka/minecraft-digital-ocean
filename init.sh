@@ -19,4 +19,4 @@ useradd -m -s /bin/bash minecraft
 mkdir /home/minecraft/.ssh
 chmod go-rwx /home/minecraft/.ssh
 cp /root/.ssh/authorized_keys /home/minecraft/.ssh/authorized_keys
-chown minecraft:minecraft /home/minecraft/.ssh/authorized_keys
+chown -R minecraft:minecraft /home/minecraft/.ssh

@@ -60,7 +60,7 @@ When you are done with the stuff below, type `Ctrl-A-D` to detach from the scree
 
 The minecraft user also wants this repo...
 
-    git clone git@github.com:magnus-lycka/minecraft-digital-ocean.git
+    git clone https://github.com/magnus-lycka/minecraft-digital-ocean.git
     cd minecraft-digital-ocean
 
 

@@ -4,7 +4,7 @@
 
 # Copy relevant URL for server.jar from e.g.
 # https://www.minecraft.net/en-us/download/server/
-URL = https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
+URL=https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
 
 wget $URL
 
